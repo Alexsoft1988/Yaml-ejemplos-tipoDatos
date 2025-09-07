@@ -1,0 +1,91 @@
+# datos de tipo texto
+
+nombre: Fernando #linea simple
+
+nombreString: 'Fernando' #soporte entre comillas simples
+
+mensaje: "Hola, soy Fernando\nsaludo" #entre comillas dobles tiene soporte a caracteres especiales
+
+descripcion: |               #se mantiene los saltos de linea
+  Esto es una descripcion.
+  Tiene una segunda linea 
+  y se mantiene
+
+descripcion_lineal: >       # mantiene una unica linea
+  Esto es una descripcion.
+  Tiene una segunda linea
+  y se mantiene
+
+
+# datos de tipo numerico
+
+edad: 30 # entero 
+
+decimal_altura: 1.70 #valor decimal
+
+permisos: 0755 #valor octal (permisos)
+
+color: 0xFFEECC # valor hexadecimal
+
+
+# valores booleanos 
+
+# expresion comun
+isActive: true
+isAdmin: false
+
+isEmpty: TRUE  #booleanos soportan mayusculas
+isValid: FALSE  #booleanos soportan mayusculas
+
+
+# expresion corta
+isEnabled: on
+isDiabled: off 
+
+
+#nullables
+
+# las 3 son equivalencias
+hasData: null
+hasInfo: Null #nullable soporta mayusculas
+hasData3: ~
+
+
+# arreglos
+
+# lista o arreglo en bloque
+colores:
+  - azul
+  - negro
+  - blanco
+
+# lista en linea
+frutas: ['manzana', 'naranja', 'plátano']
+
+# listado de objetos
+usuarios:
+  - nombre: Pedro
+    edad: 25
+  - nombre: Fernando
+    edad: 30
+
+
+#Objetos
+
+#mapeo en bloque
+
+persona:
+  nombre: Fernando
+  edad: 30
+  ciudad: 'Madrid'
+  activo: true
+  isAdmin: off
+
+#mapeo en linea
+persona2: { nombre: Carlos, edad: 35, ciudad: 'Madrid', activo: false, isAdmin: on }
+
+
+
+# caso practico
+# datos personales en un archivo yaml (utlizando todos los tipos de valores existentes)
+# 2- Traspasar el yaml --> a formato XML y JSON
