@@ -1,0 +1,20 @@
+nombre: "Alexander Gonzales"
+edad: 37
+perfil: | 
+ Ing de sistemas con experiencia en la gestion de proyectos 
+ con habilidades de programacion.
+isTrabajo: true
+isCasado: false
+herramientas: 
+ - Visual Studio
+ - SQl
+ - Java
+hobbies: ['futbol','cine','viajar']
+trabajo: 
+ empresa: utp
+ isActivo: true
+ pais: peru
+ anios: 3
+ 
+
+
