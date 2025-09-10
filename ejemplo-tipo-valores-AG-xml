@@ -1,0 +1,25 @@
+<empleador>
+    <nombre>Alexander Gonzales</nombre>
+    <edad>37</edad>
+    <perfil>
+        Ing de sistemas con experiencia en la gestion de proyectos  con habilidades de programacion.
+    </perfil>
+    <isTrabajo>true</isTrabajo>
+    <isCasado>false</isCasado>
+    <herramientas>Visual Studio</herramientas>
+    <herramientas>SQl</herramientas>
+    <herramientas>Java</herramientas>
+    <hobbies>futbol</hobbies>
+    <hobbies>cine</hobbies>
+    <hobbies>viajar</hobbies>
+    <trabajo>
+        <empresa>utp</empresa>
+        <isActivo>true</isActivo>
+        <pais>peru</pais>
+        <anios>3</anios>
+    </trabajo>
+    <tel xsi:nil="true"/>
+
+</empleador>
+
+
